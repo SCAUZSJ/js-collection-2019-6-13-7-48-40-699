@@ -2,7 +2,10 @@
 
 function choose_even(collection) {
 
-  //implement here
+  return collection.filter((val) =>{return val%2==0});
+}
+function func2(val){
+  return val%2==0;
 }
 
 module.exports = choose_even;
